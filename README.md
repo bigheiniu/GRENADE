@@ -37,3 +37,16 @@ sh eval.sh
 
 ## Model Checkpoint
 The node embeddings checkpoint is available at [here](https://drive.google.com/drive/folders/1UbQLIbfO64cz_vgd24W4r2Y2a-V9qts5?usp=drive_link).
+
+## Citation
+If you use this code for your research, please cite our paper:
+```
+@misc{li2023grenade,
+      title={GRENADE: Graph-Centric Language Model for Self-Supervised Representation Learning on Text-Attributed Graphs}, 
+      author={Yichuan Li and Kaize Ding and Kyumin Lee},
+      year={2023},
+      eprint={2310.15109},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```

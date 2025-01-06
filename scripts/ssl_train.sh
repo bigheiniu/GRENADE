@@ -8,7 +8,7 @@ InitNodeEmbPath=""
 bsz=$((64/sample_neighbor_count))
 Project=ogbn-products
 MODELNAME=${Project}-bert-Neighbor_${neighbor}-sample_${sample_neighbor_count}-LinkPre
-python mlm_neighbor.py \
+python main.py \
     --model_name_or_path bert-base-uncased \
     --data_dir ${DataDir} \
     --init_node_emb_path ${InitNodeEmbPath} \
